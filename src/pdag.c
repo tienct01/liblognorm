@@ -1215,21 +1215,21 @@ done:
 	return r;
 }
 
-static char *
-strrev(char *const __restrict__ str)
-{
-	char ch;
-	size_t i = strlen(str)-1,j=0;
-	while(i>j)
-	{
-		ch = str[i];
-		str[i]= str[j];
-		str[j] = ch;
-		i--;
-		j++;
-	}
-	return str;
-}
+// static char *
+// strrev(char *const __restrict__ str)
+// {
+// 	char ch;
+// 	size_t i = strlen(str)-1,j=0;
+// 	while(i>j)
+// 	{
+// 		ch = str[i];
+// 		str[i]= str[j];
+// 		str[j] = ch;
+// 		i--;
+// 		j++;
+// 	}
+// 	return str;
+// }
 
 /* note: "originalmsg" is NOT added as metadata in order to keep
  * backwards compatible.

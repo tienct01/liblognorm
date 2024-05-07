@@ -33,6 +33,7 @@
 #include <strings.h>
 #include <errno.h>
 #include <inttypes.h>
+#define _POSIX_C_SOURCE 200112L
 #include <time.h>
 
 #include "liblognorm.h"
